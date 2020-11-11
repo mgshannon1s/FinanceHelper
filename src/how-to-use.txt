@@ -1,0 +1,8 @@
+run this to start application for development
+
+PLAID_CLIENT_ID='5fa1ccae8cf7c30011cdc005' \
+PLAID_SECRET='a6569160cf04e78a73cb3811ae66ab' \
+PLAID_ENV='development' \
+PLAID_PRODUCTS='auth,transactions' \
+node index.js
+# Go to http://localhost:8000
